@@ -48,7 +48,7 @@ class GitHelper:
 
 if __name__ == "__main__":
     # Enter the GitHub repo URL and SSH key filename
-    repo_url = "git@github.com:pranavchandran/Analytics_auto.git" # Security issue not showing the repo url
+    repo_url = "git@github.com:pranavchandran/xxxxxx.git" # Security issue not showing the repo url
     ssh_key_filename = "id_ed25519" # You need to create a ssh key and add it to your github account
     obj = GitHelper(repo_url, ssh_key_filename)
     # Fetch the git repo
